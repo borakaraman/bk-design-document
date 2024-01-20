@@ -1,0 +1,40 @@
+/* .innerZoomElementWrapper > div:has(#story--component-button--block-primary) {
+  width: 100%;
+}
+
+.innerZoomElementWrapper > div:has(#story--component-button--block-default) {
+  width: 100%;
+}
+.innerZoomElementWrapper > div:has(#story--component-button--block-dashed) {
+  width: 100%;
+} */
+
+.buttonType {
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonShape {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttonBlock {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttonBlock > button {
+  margin: 10px;
+}
+
+.buttonIconLoading > button {
+  margin: 10px;
+}
+
+
+/*# sourceMappingURL=stories-Button-mdx.599407d2.chunk.css.map*/
