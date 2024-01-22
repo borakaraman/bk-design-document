@@ -1,0 +1,44 @@
+/* .innerZoomElementWrapper > div:has(#story--component-button--block-primary) {
+  width: 100%;
+}
+
+.innerZoomElementWrapper > div:has(#story--component-button--block-default) {
+  width: 100%;
+}
+.innerZoomElementWrapper > div:has(#story--component-button--block-dashed) {
+  width: 100%;
+} */
+.buttonType {
+  margin: 0 10px;
+}
+
+.buttonDisabled {
+  margin: 0 10px;
+}
+
+.buttonShape {
+  margin: 0 10px;
+}
+
+.buttonBlock {
+  display: flex;
+  flex-wrap: wrap;
+}
+.buttonType > button {
+  margin: 10px;
+}
+.buttonDisabled > button {
+  margin: 10px;
+}
+.buttonShape > button {
+  margin: 10px;
+}
+.buttonBlock > button {
+  margin: 10px;
+}
+.buttonIconLoading > button {
+  margin: 10px;
+}
+
+
+/*# sourceMappingURL=stories-Button-stories.864efaa3.chunk.css.map*/
