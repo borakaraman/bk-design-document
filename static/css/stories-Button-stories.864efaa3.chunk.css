@@ -8,33 +8,37 @@
 .innerZoomElementWrapper > div:has(#story--component-button--block-dashed) {
   width: 100%;
 } */
-
 .buttonType {
-  width: 420px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin: 0 10px;
+}
+
+.buttonDisabled {
+  margin: 0 10px;
 }
 
 .buttonShape {
-  width: 180px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin: 0 10px;
 }
 
 .buttonBlock {
   display: flex;
   flex-wrap: wrap;
 }
-
+.buttonType > button {
+  margin: 10px;
+}
+.buttonDisabled > button {
+  margin: 10px;
+}
+.buttonShape > button {
+  margin: 10px;
+}
 .buttonBlock > button {
   margin: 10px;
 }
-
 .buttonIconLoading > button {
   margin: 10px;
 }
 
 
-/*# sourceMappingURL=stories-Button-mdx.599407d2.chunk.css.map*/
+/*# sourceMappingURL=stories-Button-stories.864efaa3.chunk.css.map*/
